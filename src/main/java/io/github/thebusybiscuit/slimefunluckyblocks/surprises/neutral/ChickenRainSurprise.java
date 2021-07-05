@@ -14,7 +14,7 @@ public final class ChickenRainSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Chicken Rain";
+		return "鸡雨";
 	}
 
 	@Override

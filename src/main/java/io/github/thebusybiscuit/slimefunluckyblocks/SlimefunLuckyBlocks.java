@@ -115,12 +115,12 @@ public class SlimefunLuckyBlocks extends JavaPlugin implements SlimefunAddon {
             }
         }
 
-        Category category = new Category(new NamespacedKey(this, "lucky_blocks"), new CustomItem(SkullItem.fromHash(TEXTURE), "&rLucky Blocks"));
+        Category category = new Category(new NamespacedKey(this, "lucky_blocks"), new CustomItem(SkullItem.fromHash(TEXTURE), "&r幸运方块"));
 
-        SlimefunItemStack luckyBlock = new SlimefunItemStack("LUCKY_BLOCK", TEXTURE, "&fLucky Block", "&7Luck: &f0");
-        SlimefunItemStack veryLuckyBlock = new SlimefunItemStack("LUCKY_BLOCK_LUCKY", TEXTURE, "&fVery lucky Block", "&7Luck: &a+80");
-        SlimefunItemStack veryUnluckyBlock = new SlimefunItemStack("LUCKY_BLOCK_UNLUCKY", TEXTURE, "&fVery unlucky Block", "&7Luck: &c-80");
-        SlimefunItemStack pandorasBox = new SlimefunItemStack("PANDORAS_BOX", "86c7dde512871bd607b77e6635ad39f44f2d5b4729e60273f1b14fba9a86a", "&5Pandora\"s Box", "&7Luck: &c&oERROR");
+        SlimefunItemStack luckyBlock = new SlimefunItemStack("LUCKY_BLOCK", TEXTURE, "&f幸运方块", "&7幸运值: &f0");
+        SlimefunItemStack veryLuckyBlock = new SlimefunItemStack("LUCKY_BLOCK_LUCKY", TEXTURE, "&f非常幸运的方块", "&7幸运值: &a+80");
+        SlimefunItemStack veryUnluckyBlock = new SlimefunItemStack("LUCKY_BLOCK_UNLUCKY", TEXTURE, "&f非常不幸的方块", "&7幸运值: &c-80");
+        SlimefunItemStack pandorasBox = new SlimefunItemStack("PANDORAS_BOX", "86c7dde512871bd607b77e6635ad39f44f2d5b4729e60273f1b14fba9a86a", "&5潘多拉魔盒", "&7幸运值: &c&o未知");
 
         // @formatter:off
         new LuckyBlock(category, luckyBlock, RecipeType.ENHANCED_CRAFTING_TABLE, 
@@ -306,7 +306,7 @@ public class SlimefunLuckyBlocks extends JavaPlugin implements SlimefunAddon {
     public static ItemStack createPotion(Color color, PotionEffect effect, boolean lucky) {
         ItemStack potion = new ItemStack(lucky ? Material.POTION : Material.SPLASH_POTION);
         PotionMeta pm = (PotionMeta) potion.getItemMeta();
-        pm.setDisplayName(ChatColors.color((lucky ? "&6Lucky" : "&cUnlucky") + " potion"));
+        pm.setDisplayName(ChatColors.color((lucky ? "&6幸运" : "&c不幸") + "药水"));
         pm.setColor(color);
         pm.addCustomEffect(effect, false);
         potion.setItemMeta(pm);

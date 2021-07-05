@@ -13,7 +13,7 @@ public final class IronBlockSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Iron Block";
+		return "铁块";
 	}
 
 	@Override

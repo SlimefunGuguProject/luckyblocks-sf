@@ -14,7 +14,7 @@ public final class XPRainSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "XP Rain";
+		return "经验";
 	}
 
 	@Override

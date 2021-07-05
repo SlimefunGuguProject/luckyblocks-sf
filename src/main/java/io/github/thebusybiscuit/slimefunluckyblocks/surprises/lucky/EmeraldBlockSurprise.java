@@ -13,7 +13,7 @@ public final class EmeraldBlockSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Emerald Block";
+		return "绿宝石块";
 	}
 
 	@Override

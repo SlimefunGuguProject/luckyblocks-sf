@@ -13,7 +13,7 @@ public final class CakeSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Cake";
+		return "蛋糕";
 	}
 
 	@Override

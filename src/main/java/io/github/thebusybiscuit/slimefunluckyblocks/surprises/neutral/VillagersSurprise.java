@@ -14,7 +14,7 @@ public final class VillagersSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Villager Number X";
+		return "X号村民";
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public final class VillagersSurprise implements Surprise {
 		for (int i = 0; i < 8; i++) {
 			Villager v = (Villager) l.getWorld().spawnEntity(l, EntityType.VILLAGER);
 			v.setAdult();
-			v.setCustomName("Villager #" + (6 + random.nextInt(30)));
+			v.setCustomName("村民 #" + (6 + random.nextInt(30)));
 			v.setCustomNameVisible(true);
 		}
 	}

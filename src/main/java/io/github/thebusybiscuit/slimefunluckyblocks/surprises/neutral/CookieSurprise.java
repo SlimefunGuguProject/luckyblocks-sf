@@ -15,13 +15,13 @@ public final class CookieSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Cookies";
+		return "曲奇饼";
 	}
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.COOKIE));
-		p.sendTitle("", ChatColor.translateAlternateColorCodes('&',"&bCOOOOOKKIIIIIEESSS!!!!"), 10, 20, 10);
+		p.sendTitle("", ChatColor.translateAlternateColorCodes('&',"&b曲奇饼!!!!"), 10, 20, 10);
 	}
 
 	@Override

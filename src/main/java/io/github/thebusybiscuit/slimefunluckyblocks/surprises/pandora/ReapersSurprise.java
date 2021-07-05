@@ -23,7 +23,7 @@ public final class ReapersSurprise implements Surprise {
     private final ItemStack hoe;
 
     public ReapersSurprise() {
-        hoe = new CustomItem(Material.GOLDEN_HOE, "&e&lLucky Hoe");
+        hoe = new CustomItem(Material.GOLDEN_HOE, "&e&l幸运锄头");
         hoe.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 10);
         hoe.addUnsafeEnchantment(Enchantment.LOOT_BONUS_MOBS, 10);
         hoe.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, 5);

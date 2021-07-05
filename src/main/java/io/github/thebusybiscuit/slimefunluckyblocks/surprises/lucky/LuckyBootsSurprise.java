@@ -17,7 +17,7 @@ public final class LuckyBootsSurprise implements Surprise {
     private final ItemStack boots;
 
     public LuckyBootsSurprise() {
-        boots = new CustomItem(Material.DIAMOND_BOOTS, "&e&lLucky Boots");
+        boots = new CustomItem(Material.DIAMOND_BOOTS, "&e&l幸运靴子");
         boots.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 10);
         boots.addUnsafeEnchantment(Enchantment.PROTECTION_PROJECTILE, 10);
         boots.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 5);
@@ -27,7 +27,7 @@ public final class LuckyBootsSurprise implements Surprise {
 
     @Override
     public String getName() {
-        return "Lucky Boots";
+        return "幸运靴子";
     }
 
     @Override

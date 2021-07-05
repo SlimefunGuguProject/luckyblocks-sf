@@ -15,7 +15,7 @@ public final class FishSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Fish";
+		return "鱼";
 	}
 
 	@Override

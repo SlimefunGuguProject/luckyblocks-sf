@@ -17,7 +17,7 @@ public final class LuckyHelmetSurprise implements Surprise {
     private final ItemStack helmet;
 
     public LuckyHelmetSurprise() {
-        helmet = new CustomItem(Material.DIAMOND_HELMET, "&e&lLucky Helmet");
+        helmet = new CustomItem(Material.DIAMOND_HELMET, "&e&l幸运头盔");
         helmet.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 10);
         helmet.addUnsafeEnchantment(Enchantment.PROTECTION_PROJECTILE, 10);
         helmet.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 5);
@@ -27,7 +27,7 @@ public final class LuckyHelmetSurprise implements Surprise {
 
     @Override
     public String getName() {
-        return "Lucky Helmet";
+        return "幸运头盔";
     }
 
     @Override

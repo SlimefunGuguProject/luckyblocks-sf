@@ -15,7 +15,7 @@ public final class ValuablesSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Valuables";
+		return "贵重物品";
 	}
 
 	@Override

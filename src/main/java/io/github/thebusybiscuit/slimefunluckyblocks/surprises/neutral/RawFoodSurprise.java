@@ -14,7 +14,7 @@ public final class RawFoodSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Raw Food";
+		return "好吃的";
 	}
 
 	@Override

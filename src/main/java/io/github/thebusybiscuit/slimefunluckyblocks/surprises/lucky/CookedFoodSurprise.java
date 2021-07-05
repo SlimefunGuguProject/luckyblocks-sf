@@ -15,7 +15,7 @@ public final class CookedFoodSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Cooked Food";
+		return "熟食";
 	}
 
 	@Override

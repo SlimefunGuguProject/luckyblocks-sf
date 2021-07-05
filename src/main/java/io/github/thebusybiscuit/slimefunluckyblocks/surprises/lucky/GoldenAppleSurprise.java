@@ -14,7 +14,7 @@ public final class GoldenAppleSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Golden Apples";
+		return "金苹果";
 	}
 
 	@Override
