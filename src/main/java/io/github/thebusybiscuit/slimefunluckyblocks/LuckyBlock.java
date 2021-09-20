@@ -49,7 +49,7 @@ public class LuckyBlock extends SlimefunItem {
 
     @Override
     public Collection<ItemStack> getDrops() {
-        // Disable any drops from Lucky blocks (Air is not dropped but still counts as "overridden drops"1)
+        // Disable any drops from Lucky blocks (Air is not dropped but still counts as "overridden drops"2)
         return Arrays.asList(new ItemStack(Material.AIR));
     }
 
