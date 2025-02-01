@@ -3,10 +3,7 @@ package io.github.thebusybiscuit.slimefunluckyblocks;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.logging.Level;
 
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.EventHandler;
