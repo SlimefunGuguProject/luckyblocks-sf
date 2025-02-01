@@ -2,6 +2,7 @@ name: SlimefunLuckyBlocks
 version: ${project.version}
 author: TheBusyBiscuit
 website: https://github.com/TheBusyBiscuit/luckyblocks-sf/
+folia-supported: true
 
 api-version: 1.14
 main: io.github.thebusybiscuit.slimefunluckyblocks.SlimefunLuckyBlocks
