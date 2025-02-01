@@ -3,7 +3,10 @@ package io.github.thebusybiscuit.slimefunluckyblocks;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.logging.Level;
 
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.EventHandler;
@@ -35,7 +38,7 @@ public class WorldGenerator implements Listener {
         if (random.nextInt(100) < chance) {
             int x = e.getChunk().getX() * 16 + random.nextInt(16);
             int z = e.getChunk().getZ() * 16 + random.nextInt(16);
-            int y = e.getWorld().getHighestBlockYAt(x, z);
+            int y = e.getWorld().getHighestBlockYAt(x, z) + 1;
 
             Block current = e.getWorld().getBlockAt(x, y, z);
             if (!current.getType().isSolid() && current.getRelative(BlockFace.DOWN).getType().isSolid()) {
@@ -43,5 +46,4 @@ public class WorldGenerator implements Listener {
             }
         }
     }
-
 }
