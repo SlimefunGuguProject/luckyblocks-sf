@@ -21,7 +21,7 @@ public final class CookieSurprise implements Surprise {
 	@Override
 	public void activate(Random random, Player p, Location l) {
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.COOKIE));
-		p.sendTitle("", ChatColor.translateAlternateColorCodes('&',"&bCOOOOOKKIIIIIEESSS!!!!"), 10, 20, 10);
+		p.sendTitle("", ChatColor.translateAlternateColorCodes('&',"&b曲曲曲曲奇奇奇奇!!!!"), 10, 20, 10);
 	}
 
 	@Override

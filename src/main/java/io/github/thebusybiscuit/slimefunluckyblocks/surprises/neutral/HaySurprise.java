@@ -21,7 +21,7 @@ public final class HaySurprise implements Surprise {
 	@Override
 	public void activate(Random random, Player p, Location l) {
 		l.getWorld().dropItemNaturally(l, new ItemStack(Material.WHEAT));
-		p.sendTitle(ChatColor.translateAlternateColorCodes('&', "&bHay &rthere,"), "how's it going?", 10, 20, 10);
+		p.sendTitle(ChatColor.translateAlternateColorCodes('&', "&b嘿 &r这里,"), "近来如何?", 10, 20, 10);
 	}
 
 	@Override

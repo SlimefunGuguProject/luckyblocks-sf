@@ -21,7 +21,7 @@ public final class RainbowSheepSurprise implements Surprise {
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
-		String string = "Mr. Rainbow";
+		String string = "彩虹先生";
 		ChatColor[] colors = new ChatColor[] {ChatColor.AQUA, ChatColor.BLUE, ChatColor.DARK_AQUA, ChatColor.DARK_BLUE, ChatColor.DARK_GREEN, ChatColor.DARK_PURPLE, ChatColor.DARK_RED, ChatColor.GOLD, ChatColor.GREEN, ChatColor.LIGHT_PURPLE, ChatColor.RED, ChatColor.YELLOW};
 		StringBuilder name = new StringBuilder();
 		

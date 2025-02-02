@@ -23,7 +23,7 @@ public final class FakeDiamondBlock implements Surprise {
 	public void activate(Random random, Player p, Location l) {
 		l.getBlock().getRelative(BlockFace.UP).getRelative(BlockFace.UP).setType(Material.DIAMOND_BLOCK);
 		l.getBlock().getRelative(BlockFace.UP).setType(Material.DIAMOND_BLOCK);
-		p.sendTitle("", ChatColor.translateAlternateColorCodes('&', "&7&oOne is real, one is not..."), 10, 20, 10);
+		p.sendTitle("", ChatColor.translateAlternateColorCodes('&', "&7&o一真一假..."), 10, 20, 10);
 		BlockStorage.store(random.nextInt(10) < 5 ? l.getBlock().getRelative(BlockFace.UP): l.getBlock(), "LUCKY_BLOCK_UNLUCKY");
 	}
 
