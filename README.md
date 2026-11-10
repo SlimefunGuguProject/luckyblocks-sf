@@ -9,11 +9,7 @@
 
 ## 下载
 
-<p align="center">
-  <a href="https://builds.guizhanss.com/SlimefunGuguProject/luckyblocks-sf/master">
-    <img src="https://builds.guizhanss.com/f/SlimefunGuguProject/luckyblocks-sf/master/badge.svg" alt="Build status"/>
-  </a>
-</p>
+[下载 luckyblocks-sf](https://resources.guizhanss.com/plugin/luckyblocks-sf)
 
 ## Discord
 
